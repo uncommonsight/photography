@@ -1,0 +1,20 @@
+<div class="wrapper">
+    <div *ngIf="this.newMessage" class="alert alert-danger" role="alert">
+       Please provide a title and or body.
+      </div>
+    <div class="container">
+        <h3>Create New Post</h3>
+
+        <label>Title:</label>
+        <input class="title" type="text" id="title" name="title" [(ngModel)]="title"><br />
+        <label>Body:</label>
+        <input class="body" type="text" id="body" name="body" [(ngModel)]="body"><br />
+        <button class="btn" (click)="create()">Create New Post</button>
+    </div>
+    <hr />
+    <div class="posts">
+        <div class="entry" *ngFor="let a of allEntries | async">
+            <app-entry-list [allEntries]="a"></app-entry-list>
+        </div>
+    </div>
+</div>

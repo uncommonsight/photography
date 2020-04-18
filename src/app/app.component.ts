@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'uncommonsight';
+
+  nav: boolean = false;
+  
+  onClick() {
+    this.nav = !this.nav;
+  }
 }

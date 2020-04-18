@@ -1,0 +1,41 @@
+.login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+   margin-top: 200px;
+}
+
+form span {
+    text-align: center;
+    font-size: 35px;
+}
+
+#username {
+    width: 25%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+#password {
+    width: 25%;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+button {
+    width: 125px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+}

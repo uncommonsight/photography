@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+#quote {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    /* width: 75%; */
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+#btn {
+    border: 1px solid black;
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    /* margin-right: 225px; */
+}
+
+.image {
+    background-image: url('../../../assets/images/kanye.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* @media all and (max-width: 985px) and (min-width: 786px) {
+    #btn {
+        margin-right: 145px;
+    }
+}
+
+@media screen and (max-width: 785px) and (min-width: 686px) {
+    #btn {
+        margin-right: 85px;
+    }
+}
+
+@media screen and (max-width: 685px) and (min-width: 586px) {
+    #btn {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 585px) and (min-width: 500px) {
+    #btn {
+        margin-right: 30px;
+    }
+} */
+

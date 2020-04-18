@@ -1,0 +1,12 @@
+<div class="wrapper">
+    <div class="post-title">
+        {{ allEntries.title }}
+    </div>
+    <hr>
+    <div class="post-body">
+        {{ allEntries.body }}
+    </div>
+    <div class="post-date">
+        {{ allEntries.createTimestamp | date:'short' }}
+    </div>
+</div>
